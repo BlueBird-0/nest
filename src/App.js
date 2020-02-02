@@ -1,30 +1,52 @@
 import React from 'react';
 import Proptypes from 'prop-types';
+import axios from 'axios'
+import Movie from './Movie'
 
 class App extends React.Component{
-    constructor() {
-        super()
-        console.log("Hello")
-    }
-
     state = {
-        count: 0
+        isLoading: true,
+        movies: []
     }
 
-    add=()=> {
+    getMovies = async () => {
+        const {
+            data: {
+                data : {movies}
+            }
+        } = await axios.get("https://yts.lt/api/v2/list_movies.json?sort_by=rating")
+        console.log(movies)
+        this.setState({movies, isLoading: false})
+    }
 
-        this.setState(current => ({count: current.count+1}))
+    componentDidMount() {
+        this.getMovies()
     }
-    minus=()=> {
-        this.setState(current => ({count: current.count-1}))
-    }
+
 
     render() {
-        return <div>
-            <button onClick={this.add}>Add</button>
-            <button onClick={this.minus}>Minus</button>
-            Im a class {this.state.count}
-        </div>
+        const {isLoading, movies} = this.state
+        return <section className={"container"}>
+            {isLoading ? (
+                    <div className={"loader"}>
+                        <span className={"loader__text"}>Loading...</span>
+                    </div>
+                ) : (
+                    <div className={"movies"}>
+                        {movies.map(movie=> (
+                            <Movie
+                                key={movie.id}
+                                id={movie.id}
+                                year={movie.year}
+                                title={movie.title}
+                                summary={movie.summary}
+                                poster={movie.medium_cover_image}
+                            />
+                        ))
+                        }
+                    </div>
+            )}
+        </section>
     }
 }
 
