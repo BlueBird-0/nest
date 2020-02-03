@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nest/static/css/main.8b7e3d71.chunk.css",
+    "main.css": "/nest/static/css/main.e8ad3ad5.chunk.css",
     "main.js": "/nest/static/js/main.267387a3.chunk.js",
     "main.js.map": "/nest/static/js/main.267387a3.chunk.js.map",
     "runtime-main.js": "/nest/static/js/runtime-main.174806e0.js",
@@ -8,15 +8,15 @@
     "static/js/2.8ebb2c3a.chunk.js": "/nest/static/js/2.8ebb2c3a.chunk.js",
     "static/js/2.8ebb2c3a.chunk.js.map": "/nest/static/js/2.8ebb2c3a.chunk.js.map",
     "index.html": "/nest/index.html",
-    "precache-manifest.3bb1a1f3afed2b2149d9aadd497011ed.js": "/nest/precache-manifest.3bb1a1f3afed2b2149d9aadd497011ed.js",
+    "precache-manifest.4e04cb336ee105345ffde80eef51027a.js": "/nest/precache-manifest.4e04cb336ee105345ffde80eef51027a.js",
     "service-worker.js": "/nest/service-worker.js",
-    "static/css/main.8b7e3d71.chunk.css.map": "/nest/static/css/main.8b7e3d71.chunk.css.map",
+    "static/css/main.e8ad3ad5.chunk.css.map": "/nest/static/css/main.e8ad3ad5.chunk.css.map",
     "static/js/2.8ebb2c3a.chunk.js.LICENSE": "/nest/static/js/2.8ebb2c3a.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.174806e0.js",
     "static/js/2.8ebb2c3a.chunk.js",
-    "static/css/main.8b7e3d71.chunk.css",
+    "static/css/main.e8ad3ad5.chunk.css",
     "static/js/main.267387a3.chunk.js"
   ]
 }
