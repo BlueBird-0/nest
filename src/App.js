@@ -14,7 +14,7 @@ class App extends React.Component{
             data: {
                 data : {movies}
             }
-        } = await axios.get("https://yts.lt/api/v2/list_movies.json?sort_by=rating")
+        } = await axios.get("https://yts.mx/api/v2/list_movies.json?sort_by=rating")
         console.log(movies)
         this.setState({movies, isLoading: false})
     }
@@ -41,6 +41,7 @@ class App extends React.Component{
                                 title={movie.title}
                                 summary={movie.summary}
                                 poster={movie.medium_cover_image}
+                                genres={movie.genres}
                             />
                         ))
                         }
