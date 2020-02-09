@@ -3,6 +3,8 @@ import Proptypes from 'prop-types';
 import axios from 'axios'
 import Movie from '../conponents/Movie'
 import "./Home.css"
+import Container from '@material-ui/core/Container'
+import {Box} from "@material-ui/core";
 
 class Home extends React.Component{
     state = {
@@ -10,45 +12,18 @@ class Home extends React.Component{
         movies: []
     }
 
-    getMovies = async () => {
-        const {
-            data: {
-                data : {movies}
-            }
-        } = await axios.get("https://yts.mx/api/v2/list_movies.json?sort_by=rating")
-        console.log(movies)
-        this.setState({movies, isLoading: false})
-    }
-
-    componentDidMount() {
-        this.getMovies()
-    }
-
-
     render() {
-        const {isLoading, movies} = this.state
-        return <section className={"container"}>
-            {isLoading ? (
-                <div className={"loader"}>
-                    <span className={"loader__text"}>Loading...</span>
-                </div>
-            ) : (
-                <div className={"movies"}>
-                    {movies.map(movie=> (
-                        <Movie
-                            key={movie.id}
-                            id={movie.id}
-                            year={movie.year}
-                            title={movie.title}
-                            summary={movie.summary}
-                            poster={movie.medium_cover_image}
-                            genres={movie.genres}
-                        />
-                    ))
-                    }
-                </div>
-            )}
-        </section>
+        return (
+            <React.Fragment>
+                <Box className={"home"}>
+                    <Box>
+                        <div className={"typewriter"}>
+                            <h1>안녕하세요</h1>
+                        </div>
+                    </Box>
+                </Box>
+            </React.Fragment>
+            )
     }
 }
 
