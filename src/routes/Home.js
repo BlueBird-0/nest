@@ -15,13 +15,12 @@ class Home extends React.Component{
     render() {
         return (
             <React.Fragment>
-                <Box className={"home"}>
-                    <Box>
-                        <div className={"typewriter"}>
-                            <h1>안녕하세요</h1>
-                        </div>
-                    </Box>
-                </Box>
+                <div className={"home"}>
+                    <div>
+                        <h1>전인학</h1>
+                        <h1>https://github.com/BlueBird-0</h1>
+                    </div>
+                </div>
             </React.Fragment>
             )
     }

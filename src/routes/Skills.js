@@ -1,7 +1,15 @@
 import React from 'react'
+import Box from '@material-ui/core/Box'
+import './Skills.css'
 
 function Skills() {
-    return <h1> 안녕 하신가요? 여기는 스킬 창 입니다.</h1>
+    return (
+        <Box>
+            <h1> Skills</h1>
+            <img />
+        </Box>
+        )
+
 }
 
 export default Skills
