@@ -5,6 +5,7 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import Detail from "./routes/Detail"
 import Skills from "./routes/Skills";
+import Projects from "./routes/Projects";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             {/*<Navigation/>*/}
             <Route path={"/"} exact={true} component={Home}/>
             <Skills/>
+            <Projects/>
         </HashRouter>
 
     )
