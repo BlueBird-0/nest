@@ -1,13 +1,23 @@
 import React from 'react'
 import Box from '@material-ui/core/Box'
-import './Projects.css'
+import {makeStyles} from '@material-ui/core/styles'
+import Project01 from "./Project01";
+import {Container, Grid, Paper} from "@material-ui/core";
+
+const useStyles = makeStyles(theme => ({
+    wrapper: { }
+}))
 
 function Projects() {
+    const classes = useStyles()
     return (
-        <Box>
-            <h1> Projects</h1>
-            <img />
-        </Box>
+        <Container>
+            <Grid container spacing={3}>
+                <Project01/>
+                <Project01/>
+                <Project01/>
+            </Grid>
+        </Container>
         )
 
 }

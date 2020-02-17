@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
 function Skill({url}) {
     const classes = useStyles()
     return (
-        <Grid item className={classes.img}>
+        <Grid item className={classes.img} >
             <div className={"img-wrapper img1"}>
                 <img alt={"Crop"} src={url}/>
                 <div className={"darkness"}/>

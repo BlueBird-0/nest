@@ -11,6 +11,7 @@ Grid {
 }
 
 .img-wrapper img {
+    user-select: none;
     width: inherit;
     height: inherit;
     object-position: center;
