@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
     }
 }))
 
-function Skill({url}) {
+function Skill({title, url}) {
     const classes = useStyles()
     return (
         <Grid item className={classes.img} >
@@ -20,7 +20,7 @@ function Skill({url}) {
                 <div className={"darkness"}/>
                 <div className={"btn-plus"}>
                     <div draggable={"false"}>
-                        React
+                        {title}
                     </div>
                 </div>
             </div>

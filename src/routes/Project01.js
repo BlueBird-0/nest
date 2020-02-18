@@ -29,7 +29,7 @@ function Project01() {
     return (
 
         <Grid item xs={12} sm={6} >
-            <Paper elevation={20} className={classes.wrapper}>
+            <Paper elevation={10} className={classes.wrapper}>
 
                 <Card className={classes.root}>
                     <div className={classes.details}>

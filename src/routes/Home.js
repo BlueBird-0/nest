@@ -1,10 +1,5 @@
 import React from 'react';
-import Proptypes from 'prop-types';
-import axios from 'axios'
-import Movie from '../conponents/Movie'
 import "./Home.css"
-import Container from '@material-ui/core/Container'
-import {Box} from "@material-ui/core";
 
 class Home extends React.Component{
     state = {

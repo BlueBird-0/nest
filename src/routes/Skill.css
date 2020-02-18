@@ -16,7 +16,7 @@ Grid {
     height: inherit;
     object-position: center;
     border-radius: 40%;
-    background-color: white;
+    background-color: #eeeeee;
 }
 
 .darkness {

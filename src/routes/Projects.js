@@ -1,17 +1,21 @@
 import React from 'react'
-import Box from '@material-ui/core/Box'
 import {makeStyles} from '@material-ui/core/styles'
 import Project01 from "./Project01";
-import {Container, Grid, Paper} from "@material-ui/core";
+import {Container, Grid, Paper, Typography} from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
-    wrapper: { }
+    wrapper: {
+        padding: '20px',
+    },
 }))
 
 function Projects() {
     const classes = useStyles()
     return (
-        <Container>
+        <Container className={classes.wrapper}>
+            <Container>
+                <Typography align={'center'} variant={"h5"}>Projects</Typography>
+            </Container>
             <Grid container spacing={3}>
                 <Project01/>
                 <Project01/>
