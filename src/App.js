@@ -6,6 +6,7 @@ import About from "./routes/About"
 import Detail from "./routes/Detail"
 import Skills from "./routes/Skills";
 import Projects from "./routes/Projects";
+import History from "./routes/History";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Route path={"/"} exact={true} component={Home}/>
             <Skills/>
             <Projects/>
+            <History/>
         </HashRouter>
 
     )
