@@ -28,20 +28,17 @@ const classes = useStyles();
 class Project01 extends Component {
     // const classes = useStyles()
     state = {
-        // boards: [{
+        boards: [{
             brdno: 1,
             brdtitle:'Project Title',
             brdgithub:'Github repository : www.naver.comalasmd/kldnlkd/adasa',
             brbdcomment:'comment: 네 오늘도 뭐 신긴한 프로그래밍을 해봤습니다.',
             brdate: new Date(),
-        // }]
+        }]
     }
 
     render() {
         const { boards } = this.state
-        console.log(this.state.brdno)
-        console.log(boards)
-
         return (
             <Grid item xs={12} sm={6} >
                 <Paper elevation={10} className={classes.wrapper}>
@@ -50,17 +47,17 @@ class Project01 extends Component {
                         <div className={classes.details}>
                             <CardContent>
                                 <Typography component={'h5'} variant={'h5'}>
-                                    {this.state.brdtitle}
+                                    {boards[0].brdtitle}
                                 </Typography>
                                 <Typography variant={'subtitle1'} color={'textSecondary'}>
-                                    {this.state.brdgithub}
+                                    {boards[0].brdgithub}
                                 </Typography>
                             </CardContent>
 
                             <div>
                                 <CardContent className={classes.comment}>
                                     <Typography>
-                                        {this.state.brdcomm}
+                                        {boards[0].brdcomm}
                                     </Typography>
                                 </CardContent>
                             </div>
