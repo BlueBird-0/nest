@@ -28,13 +28,13 @@ const classes = useStyles();
 class Project01 extends Component {
     // const classes = useStyles()
     state = {
-        boards: [{
+        boards: {
             brdno: 1,
             brdtitle:'Project Title',
             brdgithub:'Github repository : www.naver.comalasmd/kldnlkd/adasa',
             brbdcomment:'comment: 네 오늘도 뭐 신긴한 프로그래밍을 해봤습니다.',
             brdate: new Date(),
-        }]
+        }
     }
 
     render() {
@@ -47,17 +47,17 @@ class Project01 extends Component {
                         <div className={classes.details}>
                             <CardContent>
                                 <Typography component={'h5'} variant={'h5'}>
-                                    {boards[0].brdtitle}
+                                    {boards.brdtitle}
                                 </Typography>
                                 <Typography variant={'subtitle1'} color={'textSecondary'}>
-                                    {boards[0].brdgithub}
+                                    {boards.brdgithub}
                                 </Typography>
                             </CardContent>
 
                             <div>
                                 <CardContent className={classes.comment}>
                                     <Typography>
-                                        {boards[0].brdcomm}
+                                        {boards.brbdcomment}
                                     </Typography>
                                 </CardContent>
                             </div>

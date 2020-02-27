@@ -17,6 +17,7 @@ function Projects() {
                 <Typography align={'center'} variant={"h5"}>Projects</Typography>
             </Container>
             <Grid container spacing={3}>
+                <ProjectWrite/>
                 <Project01/>
                 <Project01/>
                 <Project01/>
