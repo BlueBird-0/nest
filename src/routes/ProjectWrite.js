@@ -4,9 +4,10 @@ function ProjectWrite() {
     return (
         <div>
             <form onSubmit={this.handleSubmit}>
-                <input placeholder="title" name="brdtitle" onChange={this.handleChange}/>
-                <input placeholder="name" name="brdwriter" onChange={this.handleChange}/>
-                <button type="submit">Save</button>
+                <input placeholder="brdtitle" name="brdtitle" onChange={this.handleChange}/>
+                <input placeholder="brdgithub" name="brdgithub" onChange={this.handleChange}/>
+                <input placeholder="brbdcomment" name="brbdcomment" onChange={this.handleChange}/>
+                <button type="submit">Write</button>
             </form>
         </div>
     )
