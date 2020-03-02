@@ -1,6 +1,7 @@
 import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import Project01 from "./Project01";
+import ProjectWrite from "./ProjectWrite"
 import {Container, Grid, Paper, Typography} from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
@@ -24,7 +25,6 @@ function Projects() {
             </Grid>
         </Container>
         )
-
 }
 
 export default Projects
