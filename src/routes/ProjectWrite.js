@@ -16,7 +16,8 @@ class ProjectWrite extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-        console.log("wowowowwo")
+        console.log(this.props)
+        console.log(this.state)
         this.setState({})
     }
     render() {
