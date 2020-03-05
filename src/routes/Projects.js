@@ -20,8 +20,6 @@ function Projects() {
             <Grid container spacing={3}>
                 <ProjectWrite/>
                 <Project01/>
-                <Project01/>
-                <Project01/>
             </Grid>
         </Container>
         )

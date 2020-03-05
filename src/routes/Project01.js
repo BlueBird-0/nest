@@ -1,15 +1,11 @@
 import React, {Component} from 'react'
 import {Paper, Grid, Box, Card, CardContent, Typography, CardMedia} from "@material-ui/core";
-import {makeStyles} from "@material-ui/core/styles";
-import {red} from "@material-ui/core/colors";
 
 const useStyles = theme =>({
     root: {
         display: 'flex',
     },
     wrapper: {
-        // width: 600,
-        // height : 100,
         spacing: 6,
     },
     cover: {
@@ -26,7 +22,6 @@ const useStyles = theme =>({
 const classes = useStyles();
 
 class Project01 extends Component {
-    // const classes = useStyles()
     state = {
         boards: {
             brdno: 1,

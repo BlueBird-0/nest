@@ -1,11 +1,6 @@
 import React, {Component} from 'react'
 
 class ProjectWrite extends Component {
-    // var handleSubmit = (e) => {
-    //     e.preventDefault()
-    //     this.props.onSaveData()
-    //     this.setState({})
-    // }
     state = {}
 
     handleChange = (e) =>{
