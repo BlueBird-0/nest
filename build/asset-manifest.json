@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BlueBird-0/nest/static/css/main.073c9b0a.css",
+    "main.js": "/BlueBird-0/nest/static/js/main.be9e20e6.js",
+    "static/js/787.3de8a9ff.chunk.js": "/BlueBird-0/nest/static/js/787.3de8a9ff.chunk.js",
+    "index.html": "/BlueBird-0/nest/index.html",
+    "static/media/logo.svg": "/BlueBird-0/nest/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.073c9b0a.css.map": "/BlueBird-0/nest/static/css/main.073c9b0a.css.map",
+    "main.be9e20e6.js.map": "/BlueBird-0/nest/static/js/main.be9e20e6.js.map",
+    "787.3de8a9ff.chunk.js.map": "/BlueBird-0/nest/static/js/787.3de8a9ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.be9e20e6.js"
+  ]
+}
