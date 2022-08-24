@@ -4,7 +4,11 @@ body {
   background: #222;
   line-height: 1.7;
   font-size: 16px;
-  font-weight: 300; }
+  font-weight: 300;}
+
+.font1{
+    font-family: 'twayair', 'notoSans';
+}
 
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
