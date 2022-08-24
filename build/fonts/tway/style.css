@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'notoSans';
+    src:  url('fonts/Noto Sans V2.otf');
+    src:  url('fonts/Noto Sans V2.ttf') format('truetype'),
+      url('fonts/Noto Sans V2.woff') format('woff'),
+      url('fonts/Noto Sans V2.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'twayair';
+  src:  url('fonts/twayair.otf');
+  src:  url('fonts/twayair.ttf') format('truetype'),
+    url('fonts/twayair.woff') format('woff'),
+    url('fonts/twayair.svg') format('svg');
+    unicode-range: U+AC00-D7A3;
+}
