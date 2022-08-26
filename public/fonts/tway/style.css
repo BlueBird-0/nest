@@ -14,3 +14,12 @@
     url('fonts/twayair.svg') format('svg');
     unicode-range: U+AC00-D7A3;
 }
+
+@font-face {
+  font-family: 'suitLight';
+  src:  url('fonts/suitLight.otf');
+  src:  url('fonts/suitLight.ttf') format('truetype'),
+    url('fonts/suitLight.woff') format('woff'),
+    url('fonts/suitLight.svg') format('svg');
+    unicode-range: U+AC00-D7A3;
+}

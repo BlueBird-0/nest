@@ -9,6 +9,9 @@ body {
 .font1{
     font-family: 'twayair', 'notoSans';
 }
+.font2{
+    font-family: "suitLight",apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
 
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
